@@ -1,6 +1,8 @@
 package br.com.fiap.healthtrack.controller;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -25,8 +27,9 @@ public class PressaoArterialController extends HttpServlet {
 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-	}
+		request.setAttribute("listPressao", this.pressaoDAO.getAll());
+		RequestDispatcher disp = request.getRequestDispatcher("pressao.jsp");
+		disp.forward(request, response);	}
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

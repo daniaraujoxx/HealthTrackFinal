@@ -86,7 +86,7 @@
 						<p class="text-center">80 BPM</p>
 					</div>
 					<div class="card-footer">
-						<a href="pressao.jsp" id="btn-pressao" class="btn w-100"> <i class="fas fa-heartbeat"></i>
+						<a href="PressaoArterialController" id="btn-pressao" class="btn w-100"> <i class="fas fa-heartbeat"></i>
 						</a>
 					</div>
 				</div>
