@@ -136,7 +136,7 @@
 						
 					</div>
 					<div class="card-footer">
-						<a href="atividadefisica.jsp" id="btn-atividade" class="btn w-100">
+						<a href="AtividadeController" id="btn-atividade" class="btn w-100">
 							<i class="fas fa-dumbbell"></i>
 						</a>
 					</div>
