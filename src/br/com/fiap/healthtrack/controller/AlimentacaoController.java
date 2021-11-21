@@ -10,9 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.com.fiap.healthtrack.BO.Alimento;
-import br.com.fiap.healthtrack.BO.Peso;
 import br.com.fiap.healthtrack.DAO.AlimentoDAO;
-import br.com.fiap.healthtrack.DAO.PesoDAO;
 
 @WebServlet("/AlimentacaoController")
 public class AlimentacaoController extends HttpServlet {

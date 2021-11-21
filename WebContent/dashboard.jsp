@@ -40,7 +40,7 @@
 						
 					</div>
 					<div class="card-footer">
-						<a href="peso.jsp" id="btn-peso" class="btn w-100"> <i
+						<a href="PesoController" id="btn-peso" class="btn w-100"> <i
 							class="fas fa-weight"></i>
 						</a>
 					</div>
@@ -63,7 +63,7 @@
 						
 					</div>
 					<div class="card-footer">
-						<a href="alimentacao.jsp" id="btn-alimentacao" class="btn w-100">
+						<a href="AlimentacaoController" id="btn-alimentacao" class="btn w-100">
 							<i class="fas fa-utensils"></i>
 						</a>
 					</div>
