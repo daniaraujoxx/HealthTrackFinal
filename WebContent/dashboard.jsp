@@ -92,28 +92,7 @@
 				</div>
 				
 				
-				<!-- Card Hidratação -->
-				<div class="card">
-					<div class="card-header card-hidratacao">
-						<h5 class="card-title text-center my-auto">Hidratação</h5>
-					</div>
-					<div class="card-body">
-
-						<p class="card-text mb-0 mt-2 text-center topico">Média diária	</p>
-						
-						<p class="text-center">2 Litros e 292 ML</p>
-					
-						<p class="card-text text-center mb-0 topico">Variação do
-							recomendado diário</p>
-						<p class="text-center">-158ml</p>
-						
-					</div>
-					<div class="card-footer">
-						<a href="hidratacao.jsp" id="btn-hidratacao" class="btn  w-100">
-							<i class="fas fa-tint"></i>
-						</a>
-					</div>
-				</div>
+		
 				
 				<!-- Card Exercícios -->
 				<div class="card">
