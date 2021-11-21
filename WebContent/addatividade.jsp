@@ -3,9 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="<%=request.getContextPath() %>/css/menus.css">
-<link rel="stylesheet" href="<%=request.getContextPath() %>/css/add.css">
-<link rel="stylesheet" href="<%=request.getContextPath() %>/css/addatividade.css">
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/menus.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/add.css">
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/addatividade.css">
 <%@include file="head.jsp"%>
 <title>Health Track | Exercícios</title>
 </head>
@@ -13,7 +15,7 @@
 	<%@include file="navbar.jsp"%>
 
 	<main class="container d-flex justify-content-center" id="addform">
-		<form class="row mx-auto" action="atividadefisica.jsp">
+		<form class="addExercicio" method="post" action="AtividadeController">
 			<div id="addtitulo" class="mb-3 mt-2 text-center">
 				<h1>Adicionar Atividade</h1>
 			</div>
@@ -22,22 +24,15 @@
 				<div class="row d-flex justify-content-center">
 					<div>
 						<label for="data">Data Atividade</label> <input
-							class="form-control" id="data" type="date" max="9999-12-31" min="0001-01-01">
+							class="form-control" id="data" type="date" max="9999-12-31"
+							min="0001-01-01">
 					</div>
 					<div class="mt-2">
-						<label for="horas">Horas gastas</label> <input type="number"
+						<label for="horas">Nome Atividade</label> <input type="text"
 							id="horas" max="24" min="0" id="nome"
-							class="form-control px-2 rounded">
+							class="form-control" name="txtNome" required placeholder="Digite a atividade">
 					</div>
-					<div class="mt-2">
-						<label for="minutos">Minutos gastos</label> <input type="number"
-							max="59" min="0" id="minutos" class="form-control px-2 rounded">
-					</div>
-					<div class="mt-2">
-						<label for="km">Quilômetros Percorridos</label> <input
-							type="number" min="0" id="km"
-							class="form-control px-2 rounded">
-					</div>
+
 				</div>
 			</div>
 
@@ -51,6 +46,6 @@
 			</div>
 		</form>
 	</main>
-	<%@include file="scripts.jsp" %>
+	<%@include file="scripts.jsp"%>
 </body>
 </html>
