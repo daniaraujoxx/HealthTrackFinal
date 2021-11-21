@@ -21,8 +21,8 @@ public class DAO {
 	public void openConnection() {
 		try {
 			this.connection = DriverManager.getConnection(
-					"jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL","RMXXXXXX",
-					"XXXXXXX");
+					"jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL","RM88418",
+					"060502");
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}

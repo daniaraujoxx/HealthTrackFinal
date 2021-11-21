@@ -12,6 +12,8 @@ public class Peso {
 		return peso;
 	}
 	
+	
+	
 	public void setPeso(double peso) {
 		this.peso = peso;
 	}

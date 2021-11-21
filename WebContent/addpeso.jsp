@@ -13,7 +13,8 @@
 	<%@include file="navbar.jsp"%>
 
 	<main class="container d-flex justify-content-center" id="addform">
-		<form class="row mx-auto" action="peso.jsp">
+	
+		<form class="addpeso" method="post" action="PesoController">
 			<div id="addtitulo" class="mb-3 mt-2 text-center">
 				<h1>Adicionar Peso</h1>
 				<h2>Digite o peso atual</h2>
@@ -27,9 +28,8 @@
 					</div>
 					<div class="mt-2">
 						<div class="col mt-2">
-							<label for="quilogramas">Quilogramas</label> <input type="number"
-								max="500" min="0" id="quilogramas" placeholder="70kg"
-								class="form-control px-2 rounded">
+							<label for="quilogramas">Quilogramas</label> <input type="number" max="500" min="0" 
+								class="form-control" name="txtNrPeso" required placeholder="Digite o peso">
 						</div>
 						<div class="col mt-3">
 							<label for="gramas">Gramas</label> <input type="number" max="999"
@@ -40,9 +40,8 @@
 				</div>
 			</div>
 
-			<div class="form-group mt-3 mb-1 py-3">
-				<input type="submit" class="btn btn-adicionar w-100 mb-0"
-					value="Adicionar">
+			<button type="submit" class="btn btn-secondary mb-4"
+					name="btnOption" value="create">Adicionar</button>
 
 			</div>
 			<div class="mt-0 mb-3">
