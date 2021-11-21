@@ -39,9 +39,10 @@
 					</div>
 				</div>
 			</div>
-
-			<button type="submit" class="btn btn-secondary mb-4"
-					name="btnOption" value="create">Adicionar</button>
+		
+			<div class="form-group mt-3 mb-1 py-3">
+				<input type="submit" class="btn btn-adicionar w-100 mb-0"
+					value="Adicionar">
 
 			</div>
 			<div class="mt-0 mb-3">

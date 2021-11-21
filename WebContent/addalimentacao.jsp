@@ -49,8 +49,9 @@
 				</div>
 			</div>
 
-				<button type="submit" class="btn btn-secondary mb-4"
-					name="btnOption" value="create">Adicionar</button>
+				<div class="d-flex justify-content-center">
+            <a href="addalimentacao.jsp" id="btn-add" class="btn">Adicionar</a>
+        </div>
 					
 			<div class="mt-0 mb-3">
 				<a href="alimentacao.jsp" class="btn btn-danger w-100">Cancelar</a>
