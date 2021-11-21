@@ -48,10 +48,11 @@
 					</div>
 				</div>
 			</div>
+			
+			<div class="form-group mt-3 mb-1 py-3">
+				<input type="submit" class="btn btn-adicionar w-100 mb-0"
+					value="Adicionar">
 
-				<div class="d-flex justify-content-center">
-            <a href="addalimentacao.jsp" id="btn-add" class="btn">Adicionar</a>
-        </div>
 					
 			<div class="mt-0 mb-3">
 				<a href="alimentacao.jsp" class="btn btn-danger w-100">Cancelar</a>

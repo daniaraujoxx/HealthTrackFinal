@@ -31,7 +31,8 @@
 
 			<ul class="list-group d-flex justify-content-between" action="PesoController" method="post">
 				<li class="list-group-item d-flex justify-content-between"><span
-					class="dtpeso">{peso.getPeso}</span> <span class="pesodia">{peso.getPeso}
+					class="dtpeso">${peso.getPeso()}</span>
+					 <span class="pesodia">${peso.getPeso()}
 						</span> <span class="editremove"><i class="fas fa-edit"></i><i
 						class="far fa-times-circle"></i></span></li>
 			</ul>
