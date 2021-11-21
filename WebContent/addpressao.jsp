@@ -3,9 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="<%=request.getContextPath() %>/css/menus.css">
-<link rel="stylesheet" href="<%=request.getContextPath() %>/css/add.css">
-<link rel="stylesheet" href="<%=request.getContextPath() %>/css/addpressao.css">
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/menus.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/add.css">
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/addpressao.css">
 <%@ include file="head.jsp"%>
 <title>Health Track | Pressão</title>
 </head>
@@ -13,7 +15,8 @@
 	<%@include file="navbar.jsp"%>
 
 	<main class="container d-flex justify-content-center" id="addform">
-		<form class="row mx-auto" action="pressao.jsp">
+		<form class="addPressaoArterial" method="post"
+			action="PressaoArterialController">
 			<div id="addtitulo" class="mb-1 mt-2 text-center">
 				<h1>Adicionar Pressão</h1>
 				<h2>Digite a pressão atual</h2>
@@ -23,23 +26,20 @@
 				<div class="row d-flex justify-content-center">
 					<div>
 						<label for="data">Data Medição</label> <input class="form-control"
-							id="data" type="date"  max="9999-12-31" min="0001-01-01">
+							id="data" type="date" max="9999-12-31" min="0001-01-01">
 					</div>
 					<div class="mt-2">
 						<div class="col mt-2">
-							<label for="sistolica">Pressão Sistólica</label> <input type="number"
-								max="30" min="0" id="sistolica" placeholder="12"
-								class="form-control px-2 rounded">
+							<label for="sistolica">Pressão Sistólica</label> <input
+								type="number" max="30" min="0" id="sistolica" placeholder="12"
+								class="form-control" name="txtVlrSistolica" required
+								placeholder="sistolica">
 						</div>
 						<div class="col mt-2">
-							<label for="diastolica">Pressão Diastólica</label> <input type="number"
-								max="30" min="0" id="diastolica" placeholder="8"
-								class="form-control px-2 rounded">
-						</div>
-						<div class="col mt-3">
-							<label for="batimentos">Batimentos (BPM)</label> <input type="number" max="999"
-								min="0" id="batimentos" placeholder="500g"
-								class="form-control px-2 rounded">
+							<label for="diastolica">Pressão Diastólica</label> <input
+								type="number" max="30" min="0" id="diastolica" placeholder="8"
+								class="form-control" name="txtVlrDiastolica" required
+								placeholder="diastolica">
 						</div>
 					</div>
 				</div>
@@ -55,6 +55,6 @@
 			</div>
 		</form>
 	</main>
-	<%@include file="scripts.jsp" %>
+	<%@include file="scripts.jsp"%>
 </body>
 </html>
