@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+#addtitulo {
+    color: rgba(193,18,31,1);
+}
+h2, label {
+    color: rgb(120,0,0) ;
+}
+.btn-adicionar {
+    background-color: #E0A800 !important;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #E9ECEF !important;
+}
+.btn-adicionar:hover{
+    background-color: #ffc300 !important;
+    transition: 0.5s;
+}
+
+.navbar {
+    background-color: rgba(120,0,0,1) !important;
+}
+
+.side-nav {
+    background: rgb(120,0,0) !important;
+    background: linear-gradient(180deg, rgba(120,0,0,1) 35%, rgba(193,18,31,1) 100%) !important;
+}
+
+#side-menu .sidenav-item:hover{
+    color:#2b2d42;
+    transition:0.7s;
+    text-decoration: none;
+}

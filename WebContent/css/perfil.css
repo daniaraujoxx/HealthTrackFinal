@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+.icon {
+    padding: 10px;
+    background: rgba(0,49,81,1);
+    color: rgba(233,236,239,1);
+    min-width: 25px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+.btn-adicionar {
+    background-color: #063b4b !important;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #E9ECEF !important;
+}
+.btn-adicionar:hover{
+    background-color: #003566 !important;
+    transition: 0.5s;
+}

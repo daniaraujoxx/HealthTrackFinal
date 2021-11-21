@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+#addtitulo {
+    color: #e85d04;
+}
+h2, label {
+    color: #dc2f02 ;
+}
+.btn-adicionar {
+    background-color: #dc2f02 !important;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #E9ECEF !important;
+}
+.btn-adicionar:hover{
+    background-color: #6a040f !important;
+    transition: 0.5s;
+}
+
+.navbar {
+    background-color: #e85d04 !important;
+}
+
+.side-nav {
+    background: #e85d04 !important;
+}
+
+#side-menu .sidenav-item:hover{
+    color:#2b2d42;
+    transition:0.7s;
+    text-decoration: none;
+}

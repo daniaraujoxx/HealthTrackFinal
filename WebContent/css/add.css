@@ -1,0 +1,158 @@
+@charset "ISO-8859-1";
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: auto;
+    background: #2F2B2B !important;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+}  
+
+#addform {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+@media (max-width: 320px) {
+    #addform {
+        margin-top: 2vh;
+        width: 90%;
+    }
+    h1 {
+        font-size: 16px;
+    }
+
+    
+    h2{
+        font-size: 10px;
+    }
+    label{
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 8px;
+    }
+    ::placeholder {
+        font-size: 0.6em;
+    }
+}
+/*Mobile devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+    #addform {
+        margin-top: 3vh;
+        width: 90%;
+    }
+    h1 {
+        font-size: 16px;
+    }
+    
+    h2{
+        font-size: 10px;
+    }
+    label{
+        font-size: 12px;
+    }
+    a {
+        font-size: 12px;
+    }
+    ::placeholder {
+        font-size: 0.7em;
+    }
+
+}
+
+/*iPads, Tablets*/
+@media (min-width: 481px) and (max-width: 768px) {
+    #addform {
+        margin-top: 10vh;
+        width: 75vw;
+    }
+    #addtitulo h1 {
+        font-size: 24px;
+    }
+    a {
+        font-size: 14px;
+    }
+    
+    h2, label{
+        font-size: 14px;
+    }
+    ::placeholder {
+        font-size: 0.8em;
+    }
+}
+
+/*Small screens, laptops*/
+@media (min-width: 769px) and (max-width: 1024px) {
+    #addform {
+        margin-top: 10vh;
+        width: 60vw;
+    }
+    #addtitulo h1 {
+        font-size: 28px;
+    }
+    
+    h2, label{
+        font-size: 16px;
+    }
+    a {
+        font-size: 18px;
+    }
+    ::placeholder {
+        font-size: 0.8em;
+    }
+}
+
+/*Desktops, large screens*/
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #addform {
+        margin-top: 10vh;
+        width: 50vw;
+    }
+    #addtitulo h1 {
+        font-size: 32px;
+    }
+    
+    h2, label {
+        font-size: 18px;
+    }
+    a {
+        font-size: 18px;
+    }
+    ::placeholder {
+        font-size: 1em;
+    }
+}
+
+/*Extra large screens, TV*/
+@media (min-width: 1201px){
+    #addform {
+        margin-top: 10vh;
+        width: 50vw;
+    }
+    #addtitulo h1 {
+        font-size: 32px;
+    }
+    
+    h2, label {
+        font-size: 18px;
+    }
+    a {
+        font-size: 18px;
+    }
+    ::placeholder {
+        font-size: 1em;
+    }
+}

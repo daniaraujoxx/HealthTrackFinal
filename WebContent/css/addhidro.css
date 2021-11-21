@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+#addtitulo {
+    color: #1e6091;
+}
+h2, label {
+    color:  #184e77;
+}
+.btn {
+    background-color: #1e6091;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: #2a6f97;
+}
+
+.navbar {
+    background-color: #2e6f95 !important;
+}
+
+.side-nav {
+    background: rgb(46,111,149) !important;
+    background: linear-gradient(180deg, rgba(46,111,149,1) 35%, rgba(0,145,173,1) 100%) !important;
+}
+
+.sidenav-item:hover {
+    color: #f9c74f !important;
+}

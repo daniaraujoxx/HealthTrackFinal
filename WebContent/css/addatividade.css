@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+#addtitulo {
+    color: #368676;
+}
+h2, label {
+    color: rgba(41,162,135,1) ;
+}
+.btn {
+    border-radius: 5px;
+    font-size: 18px;
+    color: #E9ECEF !important;
+    
+}
+
+#btn-add {
+    background-color:#a07bed;
+}
+
+.btn:hover{
+    background-color: #2a6f97;
+}
+
+.navbar {
+    background-color: #368676 !important;
+}
+
+.side-nav {
+    background: rgb(54,134,118) !important;
+    background: linear-gradient(180deg, rgba(54,134,118,1) 35%, rgba(41,162,135,1) 100%) !important;
+}
+
+#side-menu .sidenav-item:hover{
+    color:#2b2d42;
+    transition:0.7s;
+    text-decoration: none;
+}

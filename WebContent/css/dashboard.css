@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: auto;
+    background: rgb(233,236,239);
+    background: linear-gradient(180deg, rgba(233,236,239,1) 35%, rgba(249,249,249,1) 100%);
+}
+
+
+
+/* Conteúdo Principal */
+#recepcao {
+    color: rgba(0,49,81,1);
+}
+
+#recepcao h1{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+#recepcao h2{
+    font-size: 16px;
+}
+
+.topico {
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Peso */
+.card-peso {
+    background-color: #ef233c !important;
+    color: rgba(233,236,239,1);
+}
+
+#btn-peso {
+    background-color: #ef233c;
+}
+#btn-peso:hover {
+    background-color: #d00000;
+}
+
+
+/* Alimentação */
+.card-alimentacao {
+    background-color: #e85d04 !important;
+    color: rgba(233,236,239,1);
+}
+
+#btn-alimentacao {
+    background-color: #e85d04;
+}
+#btn-alimentacao:hover {
+    background-color: #dc2f02;
+}
+
+
+/* Pressao */
+.card-pressao {
+    background-color: #ee9b00 !important;
+    color: rgba(233,236,239,1);
+}
+
+#btn-pressao {
+	background-color: #ee9b00;
+}
+
+#btn-pressao:hover {
+	background-color: #ca6702;
+}
+
+/* Hidratacao */
+#btn-hidratacao {
+    background-color: #118ab2;
+}
+
+#btn-hidratacao:hover {
+    background-color: #006d77;
+}
+
+.card-hidratacao{
+    background-color: #118ab2 !important;
+    color: rgba(233,236,239,1);
+}
+
+
+/* Exercicios */
+.card-atividade {
+    background-color: #63b995 !important;
+    color: rgba(233,236,239,1);
+}
+
+#btn-atividade {
+    background-color: #63b995;
+}
+
+#btn-atividade:hover {
+    background-color: #55a630;
+}
+
+.btn .fa-tint, .btn .fa-dumbbell, .btn .fa-weight, .btn .fa-heartbeat, .btn .fa-utensils{
+    color: rgba(233,236,239,1);
+}

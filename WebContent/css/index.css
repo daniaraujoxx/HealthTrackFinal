@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: auto;
+    background: rgb(70,143,175);
+    background: linear-gradient(180deg, rgba(70,143,175,1) 35%, rgba(137,194,217,1) 100%);
+}
+
+.sidenav-item{
+    font-size: 16px !important;
+    margin-left: 10px !important;
+    margin-top: 5vh;
+
+}
+.sidenav-item:hover {
+    color: #f48c06 !important;
+}
+
+#login {
+    margin-top: 1vh !important;
+}
+
+h1 {
+    color: rgba(233,236,239,1);
+    font-size: 1em;
+}
+
+.registrar {
+    margin-top: 30vh;
+}
+
+.btn {
+    padding: 10px 10px !important;
+    background-color: #f48c06 !important;
+    color: rgba(233,236,239,1) !important;
+}
+.btn:hover {
+    background-color: #dc2f02 !important;
+}
+
+@media (max-width: 320px) {
+    .registrar h1 {
+        font-size: 18px;
+    }
+    .registrar a {
+        font-size: 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .registrar h1 {
+        font-size: 24px;
+    }
+    .registrar a {
+        font-size: 14px;
+    }
+    .btn {
+        width: 50%;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .registrar h1 {
+        font-size: 24px;
+    }
+    .registrar a {
+        font-size: 16px;
+    }
+    .btn {
+        width: 50%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .registrar h1 {
+        font-size: 36px;
+    }
+    .registrar a {
+        font-size: 16px;
+    }
+    .btn {
+        width: 50%;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .registrar h1 {
+        font-size: 36px;
+    }
+    .registrar a {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1201px) {
+    .registrar h1 {
+        font-size: 42px;
+    }
+    .registrar a {
+        font-size: 16px;
+    }
+    .btn {
+        width: 50%;
+    }
+
+}
